@@ -100,4 +100,5 @@ function directGeoCode(ev) {
       getWeatherData(lat, lon);
     })
     .catch((err) => console.log(err));
+    city.value = ""
 }
